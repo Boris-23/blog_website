@@ -5,4 +5,6 @@ edition = "2021"
 
 [dependencies]
 axum = "0.8.1"
-tokio = "1.43.0"
+serde = "1.0.218"
+tokio = {version = "1.43.0", features = ["full"]}
+
